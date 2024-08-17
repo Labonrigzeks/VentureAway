@@ -1,0 +1,360 @@
+/* stylesheet.css  -  Traveler.css  -  Phone Screen width= 320-599px
+
+/* Dr FRANKENSTEIN FILE
+
+*/ /* CODE BY #134 */
+
+body {
+	margin: 0;
+	margin-top: -70px;
+	background-color: #C0DAF0;
+}
+
+header {
+	background-image: linear-gradient(to bottom right, #78AAD1, #C0DAF0 50%);
+}
+
+h1 {
+	padding: 20px;
+	padding-top: 80px;
+	padding-bottom: 0px;
+	font-size: 5em;
+	font-family: "EB Garamond";
+	word-wrap: break-word;
+	line-height: 1;
+}
+
+span {
+	font-size: 0.5em;
+	font-family: "Philosopher";
+	display: block;
+	padding-top: 10px;
+}
+
+nav {
+	display: none;
+} /*End Of Header*/
+
+
+
+
+main {
+	border-top: solid 20px #65A4D6;
+}
+
+a.invisiblelink {
+	color: black;
+	text-decoration: none;
+}
+
+section#contentcontainer {
+	background-color: #A2CFE5;
+	overflow: hidden;
+}
+
+aside {
+	display: block;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+	background-image: linear-gradient(to right, #589AD6, #A2CFE5);
+}
+
+article.contentbox { /*make entire artical clickable as link*/
+	margin-top: 35px;
+	margin-bottom: 35px;
+	
+	background-image: linear-gradient(to right, #589AD6, #A2CFE5);
+	
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+}
+
+div.contentbackground > img{
+	width: 100%;
+}
+
+h2 {
+	font-family: "Old Standard TT";
+	font-size: 2em;
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h3 {
+	font-family: "Old Standard TT";
+	font-size: 1.5em;
+	line-height: 1;
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+p {
+	font-family: "Open Sans";
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.bluetext {
+	text-decoration: underline;
+	color: blue;
+}
+
+
+
+footer {
+	padding: 20px;
+	border-top: solid 2px black;
+	text-align: center;
+	background-color: #15212B;
+	color: white;
+}
+
+/* END OF CODE BY #134*/
+
+
+
+
+
+/* GUEST BOOK */
+/* CODE BY CAND. 102 */
+
+/* Student cand. 102 traveler.html/guest-book.html bold text */
+.posted-by {
+	font-weight: bold;
+}
+
+/* Student cand. 102 traveler.html pictures */
+.person2 {
+	max-width: 50%;
+}
+.person3 {
+	max-width: 50%;
+}
+
+/* Student cand. 102 guest-book.html bold text */
+.name {
+	font-weight: bold;
+}
+
+/* Student cand. 102 guest-book.html pictures */
+.person1-guest-book {
+	max-width: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.person2-guest-book {
+	max-width: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.person3-guest-book {
+	max-width: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.person4-guest-book {
+	max-width: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/* END OF GUEST BOOK */
+/* END OF CODE BY CAND. 102 */
+
+/* OUR STORIES */
+/* CODE BY CAND. 102 */
+
+h4.our-stories {
+	font-family: "Old Standard TT";
+	font-size: 20px;
+	line-height: 2;
+	text-align: center;
+}
+
+h5.our-stories {
+	font-family: "Open Sans";
+	font-size: 1.4em;
+	line-height: 1.5em;
+}
+
+a.our-stories-link {
+	color: black;
+}
+
+a.our-stories-text-link {
+	color: black;
+}
+
+article.contentbox-our-stories {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	background-color: #589AD6;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+}
+
+p.our-stories {
+	font-family: "Open Sans";
+	font-size: 1.4em;
+	line-height: 1.5em;
+}
+
+.our-stories-image {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+/* END OF OUR STORIES */
+/* END OF CODE BY CAND. 102 */
+
+/* HAMBURGER MENU */
+/* CODE BY CAND. 102 */
+
+#menubuttonimg {
+	height: 100px;
+	width: 100px;
+}
+
+.hamburger-menu {
+	background-color: #C0DAF0;
+}
+
+.hamburger-menu ul {
+	list-style-type: none;
+	padding: 0;
+	background-color: black;
+}
+
+.hamburger-menu a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	font-family: "Old Standard TT";
+	color: gray;
+	font-size: 50px;
+	border-bottom: 5px solid #589AD6
+}
+
+.hamburger-menu label {
+	padding: 50px;
+}
+
+input#hamburger {
+	display: none;
+}
+
+.hamburger-navigation {
+	max-height: 0;
+	overflow: hidden;
+}
+
+input:checked ~ .hamburger-navigation {
+	max-height: 100%;
+}
+
+/* END OF CODE HAMBURGER MENU */
+/* END OF CODE BY CAND. 102 */
+
+
+/* CODE BELOW BY CAND NO #122 */
+/* NAVIGATION GUIDE (e.g. "Home > Seasonal Vacations" below navbar */
+.navGuide {
+	color: black;
+}
+
+.navGuide a {
+	text-decoration: none;
+	color: black;
+}
+
+.navGuide a:hover {
+	color: black;
+}
+
+.navGuide a:active {
+	color: #595959;
+}
+
+/* SEASONAL VACATIONS GRIDS */
+section#seasonalHeader {
+	padding: 20px 40px 0px;
+	background-color: #A2CFE5;
+	
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+}
+
+section#seasonalContainer {
+	padding-bottom: 50px;
+	background-color: #A2CFE5;
+	
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	justify-content: center;
+}
+
+article.seasonalContentbox { /*make entire season content box clickable as link*/
+	height: 400px;
+	width: 800px;
+	
+	margin: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: solid 2px white;
+	box-shadow: 5px 5px 5px #4ca2cd;
+}
+
+.seasonalHeading {
+	font-family: "Old Standard TT";
+	font-size: 30px;
+	line-height: 0;
+}
+
+div.seasonalContentbackground > img {
+	width: 400px;
+	height: 225px;
+	border: solid 2px white;
+}
+
+.centered {
+	text-align: center;
+}
+
+#seasonalContent1 {
+	grid-area: 3/1/span 2/span 1;
+	background-image: linear-gradient(to bottom right, #589AD6, #A2CFE5);
+}
+
+#seasonalContent2 {
+	grid-area: 4/1/span 1/span 1;
+	background-image: linear-gradient(to bottom left, #589AD6, #A2CFE5);
+}
+
+#seasonalContent3 {
+	grid-area: 5/1/span 1/span 1;
+	background-image: linear-gradient(to top right, #589AD6, #A2CFE5);
+}
+
+#seasonalContent4 {
+	grid-area: 6/1/span 1/span 1;
+	background-image: linear-gradient(to top left, #589AD6, #A2CFE5);
+}
+
+/* LOGO APPEARING IN SCROLLED-DOWN NAVBAR (removed in non-desktop) */
+.logo {
+	display: none;
+	cursor: default;
+}
+
+/* END OF CODE BY CAND NO. #122 */
